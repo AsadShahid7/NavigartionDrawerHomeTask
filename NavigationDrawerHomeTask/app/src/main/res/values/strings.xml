@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NavigationDrawerHomeTask</string>
+    <string name="Opening">Open navigation drawer</string>
+    <string name="Closing">Close navigation drawer</string>
+</resources>

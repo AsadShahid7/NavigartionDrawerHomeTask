@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/ic_baseline_add_circle_outline_24"
+            android:title="Add Record">
+
+        </item>
+        <item
+            android:id="@+id/images"
+            android:icon="@drawable/ic_baseline_panorama_24"
+            android:title="Cards">
+
+        </item>
+        <item
+            android:id="@+id/meetings"
+            android:icon="@drawable/ic_baseline_schedule_24"
+            android:title="Meetings">
+
+        </item>
+    </group>
+    <item android:title="Profile">
+       <menu>
+           <group android:checkableBehavior="single">
+               <item
+                   android:id="@+id/profile"
+                   android:icon="@drawable/ic_baseline_account_circle_24"
+                   android:title="Users">
+
+               </item>
+               <item
+                   android:id="@+id/Settings"
+                   android:icon="@drawable/ic_baseline_settings_24"
+                   android:title="Cards">
+
+               </item>
+           </group>
+       </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mail"
+                    android:icon="@drawable/ic_baseline_email_24"
+                    android:title="Email">
+
+                </item>
+                <item
+                    android:id="@+id/notifications"
+                    android:icon="@drawable/ic_baseline_notifications_active_24"
+                    android:title="Announcements">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+</menu>
