@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationDrawerHomeTask">
-        <activity android:name=".Add_New_Record"></activity>
+        <activity android:name=".ShowAllRecords"></activity>
+        <activity android:name=".Add_New_Record" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
