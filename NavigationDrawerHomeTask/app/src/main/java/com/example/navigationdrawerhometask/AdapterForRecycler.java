@@ -13,6 +13,7 @@ import java.util.ArrayList;
 
 public class AdapterForRecycler extends RecyclerView.Adapter<AdapterForRecycler.MyViewHolder> {
 
+
     private ArrayList<Members> membersList;
     private OnNoteListner onNoteListnerTwo;
 
@@ -32,6 +33,7 @@ public class AdapterForRecycler extends RecyclerView.Adapter<AdapterForRecycler.
         return new MyViewHolder(view,onNoteListnerTwo);
     }
 
+    // 0,1,2,3
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.name.setText(membersList.get(position).getName());
@@ -47,9 +49,7 @@ public class AdapterForRecycler extends RecyclerView.Adapter<AdapterForRecycler.
         return membersList.size();
     }
 
-    public ArrayList<Members> getPatientsList() {
-        return membersList;
-    }
+
 
     public void setPatientsList(ArrayList<Members> patientsList) {
         this.membersList = patientsList;
