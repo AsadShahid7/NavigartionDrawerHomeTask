@@ -22,6 +22,7 @@ public class Add_New_Record extends AppCompatActivity implements  AdapterForRecy
     EditText name,age;
     Switch aSwitch;
     ArrayList<Members> listMembers;
+
     RecyclerView recyclerView;
     ConstraintLayout layout1,layout2;
     final CharSequence[] colors = { "Student", "Teacher", "Worker", "Parent" };
