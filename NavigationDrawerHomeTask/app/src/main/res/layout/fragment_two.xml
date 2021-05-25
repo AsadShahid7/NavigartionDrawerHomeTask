@@ -4,12 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentTwo"
-    android:background="#EC8DAD">
+    android:background="#EC8DAD"
+    android:padding="10dp">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="This is Fragment Two"
+        android:textSize="26dp" />
 
 </FrameLayout>

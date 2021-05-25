@@ -4,12 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FragmentOne"
-    android:background="#AC8EE1">
+    android:background="#AC8EE1"
+    android:padding="10dp">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="This is Fragment One"
+        android:textSize="26dp"/>
 
 </FrameLayout>

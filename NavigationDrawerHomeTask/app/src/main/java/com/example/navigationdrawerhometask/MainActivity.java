@@ -151,4 +151,8 @@ public class MainActivity extends AppCompatActivity {
 
         notificationManager.notify(1,notification);
     }
+
+    public void goToFragment(View view) {
+        startActivity(new Intent(MainActivity.this,FragmentMainActivity.class));
+    }
 }
