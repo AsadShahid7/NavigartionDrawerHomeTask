@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentMainActivity">
+    tools:context=".FragmentMainActivity"
+    android:orientation="vertical"
+    android:weightSum="100">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+       >
+        <FrameLayout
+            android:id="@+id/frameLayoutInMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="10dp">
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Button 1"
+            android:layout_marginRight="20dp">
+
+        </Button>
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Button 2"
+            android:layout_marginLeft="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
