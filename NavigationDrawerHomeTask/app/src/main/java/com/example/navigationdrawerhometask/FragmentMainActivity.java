@@ -43,4 +43,5 @@ public class FragmentMainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.frameLayoutInMain,fragment);
         fragmentTransaction.commit();
     }
+
 }
